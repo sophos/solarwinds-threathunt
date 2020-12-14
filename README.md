@@ -14,7 +14,7 @@ Determine if the CURL is returning a result or not
 SELECT * FROM curl WHERE url = 'https://raw.githubusercontent.com/craig-sophos/solarwinds-threathunt/main/iocs.csv'
 That should return a single row with a 200 for response and a large data blob in the 'results' column.  If it is not then the Device may still be able to reach the internet but something is preventing osquery service from doing the same.  It may be a problem at the ISP, GIT or your own firewall rules, potentially identifying the content of the CSV as MAL or some other rule.
 
-## Raw IOC's work in progress
+## Raw IOCs work in progress
 
 https://raw.githubusercontent.com/craig-sophos/solarwinds-threathunt/main/iocs.csv
 
