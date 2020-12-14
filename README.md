@@ -11,5 +11,6 @@ RAW IOCs - https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-thr
 
 ## Splunk Searches
 
-## Bro Detection
+Useful Splunk searches for threathunting - https://github.com/sophos-cybersecurity/solarwinds-threathunt/blob/master/splunk-searches.md
+
 
