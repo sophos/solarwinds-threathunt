@@ -1,0 +1,31 @@
+Indicator_type,Data,Note
+Description,IOCs from Solarwinds attack
+
+file_path_name,C:\windows\syswow64\netsetupsvc.dll,solarwinds
+domain,freescanonline.com,C2 
+domain,mn.fastbloodhunter.com,C2
+domain,deftsecurity.com,C2 
+domain,thedoccloud.com,C2 	
+domain,websitetheme.com,C2 
+domain,highdatabase.com,C2 	
+domain,incomeupdate.com,C2	
+domain,databasegalore.com,C2
+domain,panhardware.com,C2	
+domain,zupertech.com,C2	
+ip,13.59.205.66,C2 		
+ip,54.193.127.66,C2 	
+ip,54.215.192.52,C2 	
+ip,34.203.203.23,C2
+ip,139.99.115.204,C2
+ip,5.252.177.25,C2	
+ip,5.252.177.21,C2	
+ip,204.188.205.176,C2
+ip,51.89.125.18,C2
+ip,167.114.213.199,C2
+sha256,d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600,CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp 
+sha256,53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7,Solarwinds Worldwide, LLC 	
+sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,SolarWinds.Orion.Core.BusinessLayer.dll
+sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,SolarWinds.Orion.Core.BusinessLayer.dll 
+sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,SolarWinds.Orion.Core.BusinessLayer.dll 	
+sha256,292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712,OrionImprovementBusinessLayer.2.cs 	
+sha256,c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,app_web_logoimagehandler.ashx.b6031896.dll
