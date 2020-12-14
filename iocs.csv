@@ -22,10 +22,10 @@ ip,5.252.177.21,C2 Fireeye
 ip,204.188.205.176,C2 Fireeye	
 ip,51.89.125.18,C2 Fireeye	
 ip,167.114.213.199,C2 Fireeye	
-sha256,d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600,Troj/SunBurst-A CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp 
-sha256,53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7,Mal/Generic-S Solarwinds Worldwide LLC 	
-sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,Troj/Agent-BGGA SolarWinds.Orion.Core.BusinessLayer.dll
-sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,Troj/Agent-BGGB SolarWinds.Orion.Core.BusinessLayer.dll 
-sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,Troj/Agent-BGFZ SolarWinds.Orion.Core.BusinessLayer.dll 	
-sha256,292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712,Mal/Generic-S OrionImprovementBusinessLayer.2.cs 	
-sha256,c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,Troj/Agent-BGGC + Mal/Generic-S app_web_logoimagehandler.ashx.b6031896.dll
+sha256,d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600,Troj/SunBurst-A.CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp 
+sha256,53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7,Mal/Generic-S.Solarwinds Worldwide LLC 	
+sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,Troj/Agent-BGGA.SolarWinds.Orion.Core.BusinessLayer.dll
+sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,Troj/Agent-BGGB.SolarWinds.Orion.Core.BusinessLayer.dll 
+sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,Troj/Agent-BGFZ.SolarWinds.Orion.Core.BusinessLayer.dll 	
+sha256,292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712,Mal/Generic-S.OrionImprovementBusinessLayer.2.cs 	
+sha256,c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,Troj/Agent-BGGC+Mal/Generic-S.app_web_logoimagehandler.ashx.b6031896.dll
