@@ -1,21 +1,10 @@
 # Live Discover threathunt for Solarwinds
 
-
 The query takes a CSV file published by SOPHOS Security based on Fireeye published IOCs and parses out the IOCs, then performs a hunt. Note you have to setup the variables and use the RAW csv file in Sophos Central.
 
-Add the query to your Sophos Central Instance - https://github.com/sophos-cybersecurity/solarwinds-threathunt/blob/master/query-for-central.sql then setup the variable as directed below. 
+Add the query below to your Sophos Central Instance and then setup a Central variable as detailed in the section below. 
 
-To test it you can drop an executable in the C:\PerfLogs directory and run it.  Putting executables in that directory will be a deteced IOC.
-## Test it
-If you drop any executable in the C:\PerfLogs\ directory and run the query it should show it as a MATCH for one of the IOC's  If that is not happening you will want to ensure that the CURL command to the git repository is working.
-
-## Any issues
-Determine if the CURL is returning a result or not
-SELECT * FROM curl WHERE url = 'https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv'
-That should return a single row with a 200 for response and a large data blob in the 'results' column.  If it is not then the Device may still be able to reach the internet but something is preventing osquery service from doing the same.  It may be a problem at the ISP, GIT or your own firewall rules, potentially identifying the content of the CSV as MAL or some other rule.
-
-## Raw IOCs work in progress
-https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv
+https://github.com/sophos-cybersecurity/solarwinds-threathunt/blob/master/query-for-central.sql
 
 ## Variables in Central
 
@@ -24,4 +13,22 @@ https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/mas
 | Number of Hours of activity to search  | STRING | 24 |  
 |  RAW IOC List location from a URL|STRING|https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv | 
 |Start Search From | DATE | 12/12/2020 12:00:00 |
+
+## Testing
+
+If you drop an executable in the C:\PerfLogs\ directory and run the query it should show up as a MATCH for one of the IOC's. If that isn't working as expected you may want to check that CURL can reach the remote IOC list specified in the variable above.
+
+## Toubleshooting
+
+To check that CURL is returning results run the query below
+
+```
+SELECT * FROM curl WHERE url = 'https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv'
+```
+
+The query above should return a single row with a 200 for response and a large data blob in the 'results' column. If this isn't working as epxected and the device can reach the internet something else may be preventing the osquery service from being able to reach the remote site.  It may be a problem at the ISP, GIT, firewall rules, something in-line identifying the content of the CSV as MAL etc.
+
+## Raw IOCs (work in progress)
+
+https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv
 
