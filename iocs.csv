@@ -3,7 +3,6 @@ Description,IOCs from Solarwinds attack
 
 file_path_name,C:\windows\syswow64\netsetupsvc.dll,solarwinds
 domain,freescanonline.com,C2 
-domain,mn.fastbloodhunter.com,C2
 domain,deftsecurity.com,C2 
 domain,thedoccloud.com,C2 	
 domain,websitetheme.com,C2 
