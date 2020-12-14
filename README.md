@@ -22,6 +22,6 @@ https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/mas
 |Detail |Type  | 	Value  |   
 |---|---|---|
 | Number of Hours of activity to search  | STRING | 24 |  
-|  RAW IOC List location from a URL|STRING|72 | 
+|  RAW IOC List location from a URL|STRING|https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv | 
 |Start Search From | DATE | 12/12/2020 12:00:00 |
 
