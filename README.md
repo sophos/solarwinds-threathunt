@@ -11,12 +11,11 @@ If you drop any executable in the C:\PerfLogs\ directory and run the query it sh
 
 ## Any issues
 Determine if the CURL is returning a result or not
-SELECT * FROM curl WHERE url = 'https://raw.githubusercontent.com/craig-sophos/solarwinds-threathunt/main/iocs.csv'
+SELECT * FROM curl WHERE url = 'https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv'
 That should return a single row with a 200 for response and a large data blob in the 'results' column.  If it is not then the Device may still be able to reach the internet but something is preventing osquery service from doing the same.  It may be a problem at the ISP, GIT or your own firewall rules, potentially identifying the content of the CSV as MAL or some other rule.
 
 ## Raw IOCs work in progress
-
-https://raw.githubusercontent.com/craig-sophos/solarwinds-threathunt/main/iocs.csv
+https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv
 
 ## Variables in Central
 
