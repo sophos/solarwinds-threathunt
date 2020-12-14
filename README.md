@@ -1,4 +1,4 @@
-# Conducting a Threathunt for the Solarwinds Compromise 
+# Threathunt for the Solarwinds Compromise 
 
 ## IOCs
 
