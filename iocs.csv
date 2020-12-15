@@ -3,6 +3,7 @@ Description,IOCs from Solarwinds attack,
 
 file_path_name,C:\windows\syswow64\netsetupsvc.dll,TEARDROP memory module used to drop Cobalt Strike Beacon
 domain,avsvmcloud.com,malware/callhome
+domain,digitalcollege.org,malware/callhome
 domain,freescanonline.com,malware/repository
 domain,deftsecurity.com,malware/repository	
 domain,thedoccloud.com,malware/repository
