@@ -13,6 +13,10 @@ domain,incomeupdate.com,malware/repository
 domain,databasegalore.com,malware/repository	
 domain,panhardware.com,malware/repository	
 domain,zupertech.com,malware/repository	
+domain,seobundlekit.com,malware/repository
+domain,lcomputers.com,malware/repository
+domain,virtualdataserver.com,malware/repository
+domain,digitalcollege.org,malware/repository
 ip,98.225.248.37,C2 from Sophos MTR
 ip,13.59.205.66,C2 malware/repository	
 ip,54.193.127.66,C2 malware/repository
