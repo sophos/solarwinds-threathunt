@@ -16,7 +16,6 @@ domain,zupertech.com,malware/repository
 domain,seobundlekit.com,malware/repository
 domain,lcomputers.com,malware/repository
 domain,virtualdataserver.com,malware/repository
-domain,digitalcollege.org,malware/repository
 ip,13.59.205.66,C2 malware/repository	
 ip,54.193.127.66,C2 malware/repository
 ip,54.215.192.52,C2 malware/repository
