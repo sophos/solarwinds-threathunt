@@ -1,8 +1,9 @@
 Indicator_type,Data,Note
 Description,IOCs from Solarwinds attack,
 
-file_path_name,C:\windows\syswow64\netsetupsvc.dll,TEARDROP memory module used to drop Cobalt Strike Beacon
+file_path_name,C:\windows\syswow64\netsetupsvc.dll,TEARDROP memory module used to drop Cobalt Strike Beacon.
 domain,avsvmcloud.com,malware/callhome
+domain,digitalcollege.org,malware/callhome
 domain,freescanonline.com,malware/repository
 domain,deftsecurity.com,malware/repository	
 domain,thedoccloud.com,malware/repository
@@ -12,6 +13,10 @@ domain,incomeupdate.com,malware/repository
 domain,databasegalore.com,malware/repository	
 domain,panhardware.com,malware/repository	
 domain,zupertech.com,malware/repository	
+domain,seobundlekit.com,malware/repository
+domain,lcomputers.com,malware/repository
+domain,virtualdataserver.com,malware/repository
+domain,digitalcollege.org,malware/repository
 ip,13.59.205.66,C2 malware/repository	
 ip,54.193.127.66,C2 malware/repository
 ip,54.215.192.52,C2 malware/repository
@@ -28,7 +33,7 @@ sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,Troj/Age
 sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,Troj/Agent-BGGB.SolarWinds.Orion.Core.BusinessLayer.dll 
 sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,Troj/Agent-BGFZ.SolarWinds.Orion.Core.BusinessLayer.dll 	
 sha256,292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712,Mal/Generic-S.OrionImprovementBusinessLayer.2.cs 	
-sha256,c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,Troj/Agent-BGGC+Mal/Generic-S.app_web_logoimagehandler.ashx.b6031896.dll
+sha256,c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,Mal/Sunburst-B.app_web_logoimagehandler.ashx.b6031896.dll.SuperNova webshell backdoor
 sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,Mal/Sunburst-A
 sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,Mal/Sunburst-A
 sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,Mal/Sunburst-A
