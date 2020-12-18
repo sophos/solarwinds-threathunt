@@ -7,8 +7,8 @@ CSV of Published IOCs - https://github.com/sophos-cybersecurity/solarwinds-threa
 
 RAW IOCs - https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv
 
-## Sophos Central LiveQuery
-Queries for Sophos LiveQuery
+## Sophos Central Live Discover
+Queries for Sophos Live Discover
 
 1. Check if a server has Solarwinds and is vulnerable  - https://github.com/sophos-cybersecurity/solarwinds-threathunt/blob/master/find-solarwinds.sql
 2. Check for the specific IOCs listed by Fireeye - https://github.com/sophos-cybersecurity/solarwinds-threathunt/blob/master/ioc-hunt.md
