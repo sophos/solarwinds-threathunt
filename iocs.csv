@@ -17,6 +17,8 @@ domain,seobundlekit.com,malware/callhome
 domain,lcomputers.com,malware/callhome
 domain,virtualdataserver.com,malware/repository
 domain,webcodez.com,malware/callhome	
+domain,infinitysoftwares.com,malware/callhome
+domain,ervsystem.com,malware/callhome
 ip,13.59.205.66,C2 malware/repository	
 ip,54.193.127.66,C2 malware/repository
 ip,54.215.192.52,C2 malware/repository
@@ -39,3 +41,5 @@ sha256,abe22cf0d78836c3ea072daeaf4c5eeaf9c29b6feb597741651979fc8fbd2417,Mal/Sunb
 sha256,2ade1ac8911ad6a23498230a5e119516db47f6e76687f804e2512cc9bcfda2b0,Mal/Sunburst-A(SolarWinds.Orion.Core.BusinessLayer.dll)
 sha256,db9e63337dacf0c0f1baa06145fd5f1007002c63124f99180f520ac11d551420,Mal/Sunburst-A(SolarWinds.Orion.Core.BusinessLayer.dll)
 sha256,0f5d7e6dfdd62c83eb096ba193b5ae394001bac036745495674156ead6557589,Mal/Sunburst-A(SolarWinds.Orion.Core.BusinessLayer.dll)
+sha256,b820e8a2057112d0ed73bd7995201dbed79a79e13c79d4bdad81a22f12387e07,Teardrop
+sha256,1817a5bf9c01035bcf8a975c9f1d94b0ce7f6a200339485d8f93859f8f6d730c,Teardrop
